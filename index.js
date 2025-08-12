@@ -15,7 +15,7 @@
     {
         this.load.image('sky', 'assets/sky.png');
         this.load.image('ground', 'assets/platform.png');
-        this.load.image('star', 'assets/star.png');
+        this.load.image('star', 'assets/star.png');umas 10h
         this.load.image('bomb', 'assets/bomb.png');
         this.load.spritesheet('dude', 'assets/dude.png', { 
             frameWidth: 32, frameHeight: 48 }
@@ -26,6 +26,8 @@
     {
         this.add.image(400, 300, 'sky');
         this.add.image(400, 300, 'star');
+        this.add.image(200, 200, 'star');
+        this.add.image(700, 400, 'star');
     }
 
     function update ()
