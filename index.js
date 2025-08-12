@@ -32,7 +32,6 @@
         this.add.image(500, 300, 'star');
         this.add.image(600, 300, 'star');
         this.add.image(700, 300, 'star');
-        this.add.image(400, 050, 'star');
         this.add.image(400, 100, 'star');
         this.add.image(400, 150, 'star');
         this.add.image(400, 200, 'star');
